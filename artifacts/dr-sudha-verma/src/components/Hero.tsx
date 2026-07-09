@@ -40,10 +40,10 @@ export function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-5 mb-14">
-            <a href="https://wa.me/917276361426" target="_blank" rel="noreferrer" className="w-full sm:w-auto px-8 py-4 bg-[#C9A96A] text-[#2A1E18] text-sm font-bold tracking-widest uppercase hover:bg-[#e0bc7e] transition-colors shadow-lg">
+            <a href="https://wa.me/917276361426" target="_blank" rel="noreferrer" className="w-full sm:w-auto px-8 py-4 bg-[#C9A96A] text-[#2A1E18] text-sm font-bold tracking-widest uppercase hover:bg-[#e0bc7e] transition-colors shadow-lg rounded-full">
               Book Appointment
             </a>
-            <a href="tel:+917276361426" className="w-full sm:w-auto px-8 py-4 border-2 border-[#FBF8F3]/70 text-[#FBF8F3] text-sm font-medium tracking-widest uppercase hover:bg-[#FBF8F3]/10 transition-colors backdrop-blur-sm">
+            <a href="tel:+917276361426" className="w-full sm:w-auto px-8 py-4 border-2 border-[#FBF8F3]/70 text-[#FBF8F3] text-sm font-medium tracking-widest uppercase hover:bg-[#FBF8F3]/10 transition-colors backdrop-blur-sm rounded-full">
               Call Now
             </a>
           </div>
