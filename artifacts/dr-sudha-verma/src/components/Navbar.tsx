@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence, type Variants } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import { LuxuryLogo } from './LuxuryLogo';
 
@@ -22,12 +22,12 @@ export function Navbar() {
     { name: 'Contact', href: '#contact' },
   ];
 
-  const menuVariants = {
+  const menuVariants: Variants = {
     closed: { opacity: 0, height: 0, transition: { duration: 0.3, ease: 'easeInOut' } },
     open:   { opacity: 1, height: 'auto', transition: { duration: 0.35, ease: 'easeInOut' } },
   };
 
-  const linkVariants = {
+  const linkVariants: Variants = {
     closed: { opacity: 0, x: -18 },
     open: (i: number) => ({
       opacity: 1,
