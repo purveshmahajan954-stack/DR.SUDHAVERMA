@@ -6,7 +6,7 @@ export function SectionHeader({ kicker, title, align = "center" }: { kicker: str
       <motion.div 
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
+        viewport={{ once: true, amount: 0.1 }}
         transition={{ duration: 0.5 }}
         className="flex items-center gap-4 mb-4 justify-center"
         style={{ justifyContent: align === "center" ? "center" : "flex-start" }}
@@ -18,7 +18,7 @@ export function SectionHeader({ kicker, title, align = "center" }: { kicker: str
       <motion.h2 
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
+        viewport={{ once: true, amount: 0.1 }}
         transition={{ duration: 0.5, delay: 0.1 }}
         className="text-2xl sm:text-3xl md:text-5xl font-serif text-[#3E2C23] leading-tight"
       >

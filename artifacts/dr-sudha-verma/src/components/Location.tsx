@@ -12,7 +12,7 @@ export function Location() {
           <motion.div 
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, amount: 0.1 }}
             className="lg:col-span-7 w-full h-[260px] md:h-[360px] lg:h-[500px] rounded-sm overflow-hidden border-4 md:border-8 border-white shadow-[0_20px_50px_-10px_rgba(47,79,68,0.1)] relative"
           >
             <iframe 
@@ -31,7 +31,7 @@ export function Location() {
           <motion.div 
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, amount: 0.1 }}
             className="lg:col-span-5 bg-white p-6 md:p-10 border border-[#C9A96A]/30 shadow-xl relative"
           >
             <div className="absolute top-0 left-0 w-full h-1 bg-[#C9A96A]"></div>

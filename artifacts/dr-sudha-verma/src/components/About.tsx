@@ -10,7 +10,7 @@ export function About() {
           <motion.div 
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, amount: 0.1 }}
             transition={{ duration: 0.8 }}
             className="relative order-2 lg:order-1"
           >
@@ -30,7 +30,7 @@ export function About() {
           <motion.div 
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, amount: 0.1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             className="order-1 lg:order-2"
           >

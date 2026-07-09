@@ -17,7 +17,7 @@ export function WhyChooseUs() {
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, amount: 0.1 }}
             className="flex items-center justify-center gap-4 mb-4"
           >
             <span className="h-[1px] w-12 bg-[#C9A96A]" />
@@ -27,7 +27,7 @@ export function WhyChooseUs() {
           <motion.h2
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, amount: 0.1 }}
             transition={{ delay: 0.1 }}
             className="text-2xl sm:text-3xl md:text-5xl font-serif text-[#FBF8F3] leading-tight"
           >
@@ -43,7 +43,7 @@ export function WhyChooseUs() {
                 key={idx}
                 initial={{ opacity: 0, y: 24 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                viewport={{ once: true, amount: 0.1 }}
                 transition={{ duration: 0.5, delay: idx * 0.1 }}
                 whileHover={{ y: -6, transition: { duration: 0.25 } }}
                 className="bg-[#3E2C23] p-8 md:p-10 text-center flex flex-col items-center justify-center border-b-4 border-[#C9A96A] hover:bg-[#2A1E18] transition-colors duration-300 cursor-default group"

@@ -28,7 +28,7 @@ export function Testimonials() {
               key={idx}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, amount: 0.1 }}
               transition={{ duration: 0.5, delay: idx * 0.2 }}
               className="bg-white p-6 md:p-10 relative shadow-[0_4px_30px_-5px_rgba(47,79,68,0.06)] border border-[#C9A96A]/10 h-full flex flex-col justify-between"
             >
