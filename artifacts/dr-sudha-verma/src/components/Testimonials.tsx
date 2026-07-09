@@ -18,7 +18,7 @@ const reviews = [
 
 export function Testimonials() {
   return (
-    <section id="testimonials" className="py-24 bg-[#FBF8F3] overflow-hidden">
+    <section id="testimonials" className="py-12 md:py-24 bg-[#FBF8F3] overflow-hidden">
       <div className="container mx-auto px-6 md:px-12">
         <SectionHeader kicker="What Patients Say" title="Stories of Healing" />
         
