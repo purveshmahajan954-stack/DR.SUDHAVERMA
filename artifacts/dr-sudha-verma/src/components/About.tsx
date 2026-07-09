@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { SectionHeader } from './SectionHeader';
+import doctorImg from '@assets/upscalemedia-transformed (6).png';
 
 export function About() {
   return (
@@ -15,7 +16,7 @@ export function About() {
           >
             <div className="aspect-[4/5] rounded-tl-[10rem] rounded-tr-[10rem] overflow-hidden border border-[#C9A96A]/30 p-2 bg-white">
               <img 
-                src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&q=80" 
+                src={doctorImg} 
                 alt="Dr. Sudha Verma" 
                 className="w-full h-full object-cover rounded-tl-[9.5rem] rounded-tr-[9.5rem]"
                 loading="lazy"
