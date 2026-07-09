@@ -1,3 +1,8 @@
 [build]
-  command = "pnpm run build"
-  publish = "dist/public"
+  command = "pnpm --filter @workspace/dr-sudha-verma run build"
+  publish = "artifacts/dr-sudha-verma/dist/public"
+
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
