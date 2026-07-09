@@ -1,4 +1,5 @@
 import { SiWhatsapp, SiInstagram, SiGooglemaps } from 'react-icons/si';
+import { LuxuryLogo } from './LuxuryLogo';
 
 export function Footer() {
   return (
@@ -7,10 +8,8 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-8 mb-10 md:mb-20">
           <div className="md:col-span-12 lg:col-span-5 pr-0 lg:pr-12">
             <div className="flex items-center gap-4 mb-8">
-              <div className="w-12 h-12 rounded-full bg-[#FBF8F3] flex items-center justify-center text-[#2A1E18] font-serif text-2xl font-medium border border-[#C9A96A]">
-                SV
-              </div>
-              <span className="font-serif text-xl md:text-3xl text-[#C9A96A]">Dr Sudha Verma</span>
+              <LuxuryLogo size={56} variant="light" />
+              <span className="font-serif text-xl md:text-2xl text-[#C9A96A] tracking-wide">Dr Sudha Verma</span>
             </div>
             <p className="text-[#FBF8F3]/80 font-serif italic text-lg md:text-2xl mb-6">
               "Rooted in Nature, Guided by Science"

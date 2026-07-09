@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
+import { LuxuryLogo } from './LuxuryLogo';
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -27,10 +28,10 @@ export function Navbar() {
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-[#FBF8F3]/90 backdrop-blur-md shadow-sm py-4' : 'bg-transparent py-6'}`}>
       <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
         <a href="#home" className="flex items-center gap-3 group">
-          <div className="w-10 h-10 rounded-full bg-[#3E2C23] flex items-center justify-center text-[#C9A96A] font-serif text-xl border border-[#C9A96A]/30 group-hover:border-[#C9A96A] transition-colors">
-            SV
+          <div className="transition-transform duration-300 group-hover:scale-105">
+            <LuxuryLogo size={48} variant={scrolled ? 'dark' : 'light'} />
           </div>
-          <span className={`font-serif text-xl md:text-2xl font-medium transition-colors duration-300 ${scrolled ? 'text-[#3E2C23]' : 'text-[#FBF8F3]'}`}>Dr Sudha Verma</span>
+          <span className={`font-serif text-lg md:text-xl font-medium tracking-wide transition-colors duration-300 ${scrolled ? 'text-[#3E2C23]' : 'text-[#FBF8F3]'}`}>Dr Sudha Verma</span>
         </a>
 
         {/* Desktop */}
