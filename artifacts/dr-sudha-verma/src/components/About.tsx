@@ -21,7 +21,7 @@ export function About() {
                 loading="lazy"
               />
             </div>
-            <div className="absolute -bottom-6 -right-6 lg:-right-10 w-32 h-32 md:w-40 md:h-40 bg-[#3E2C23] rounded-full flex items-center justify-center text-[#C9A96A] p-6 text-center border-8 border-[#FBF8F3] shadow-lg">
+            <div className="absolute -bottom-4 -right-4 md:-bottom-6 md:-right-6 lg:-right-10 w-24 h-24 md:w-36 md:h-36 bg-[#3E2C23] rounded-full flex items-center justify-center text-[#C9A96A] p-4 md:p-6 text-center border-4 md:border-8 border-[#FBF8F3] shadow-lg z-10">
               <span className="font-serif italic text-sm md:text-base leading-tight">Rooted in<br/>Nature</span>
             </div>
           </motion.div>
@@ -44,18 +44,18 @@ export function About() {
               </p>
             </div>
 
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-8 pt-8 border-t border-[#C9A96A]/30">
+            <div className="grid grid-cols-3 gap-4 md:gap-8 pt-8 border-t border-[#C9A96A]/30">
               <div>
-                <h4 className="text-4xl md:text-5xl font-serif text-[#C9A96A] mb-2">20+</h4>
-                <p className="text-[10px] md:text-xs uppercase tracking-widest text-[#3E2C23] font-semibold">Years Experience</p>
+                <h4 className="text-3xl md:text-5xl font-serif text-[#C9A96A] mb-2">20+</h4>
+                <p className="text-[9px] md:text-xs uppercase tracking-wider text-[#3E2C23] font-semibold leading-tight">Years<br className="md:hidden"/>Experience</p>
               </div>
               <div>
-                <h4 className="text-4xl md:text-5xl font-serif text-[#C9A96A] mb-2">5k+</h4>
-                <p className="text-[10px] md:text-xs uppercase tracking-widest text-[#3E2C23] font-semibold">Patients Treated</p>
+                <h4 className="text-3xl md:text-5xl font-serif text-[#C9A96A] mb-2">5k+</h4>
+                <p className="text-[9px] md:text-xs uppercase tracking-wider text-[#3E2C23] font-semibold leading-tight">Patients<br className="md:hidden"/>Treated</p>
               </div>
               <div>
-                <h4 className="text-4xl md:text-5xl font-serif text-[#C9A96A] mb-2 flex items-center">4.9<span className="text-2xl md:text-3xl ml-1 -mt-2">★</span></h4>
-                <p className="text-[10px] md:text-xs uppercase tracking-widest text-[#3E2C23] font-semibold">Google Rating</p>
+                <h4 className="text-3xl md:text-5xl font-serif text-[#C9A96A] mb-2 flex items-center">4.9<span className="text-xl md:text-3xl ml-0.5 -mt-1">★</span></h4>
+                <p className="text-[9px] md:text-xs uppercase tracking-wider text-[#3E2C23] font-semibold leading-tight">Google<br className="md:hidden"/>Rating</p>
               </div>
             </div>
           </motion.div>

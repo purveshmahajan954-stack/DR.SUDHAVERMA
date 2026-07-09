@@ -30,9 +30,9 @@ export function Testimonials() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: idx * 0.2 }}
-              className="bg-white p-10 relative shadow-[0_4px_30px_-5px_rgba(47,79,68,0.06)] border border-[#C9A96A]/10 h-full flex flex-col justify-between"
+              className="bg-white p-6 md:p-10 relative shadow-[0_4px_30px_-5px_rgba(47,79,68,0.06)] border border-[#C9A96A]/10 h-full flex flex-col justify-between"
             >
-              <div className="text-[#C9A96A]/10 font-serif text-9xl absolute -top-4 -left-2 leading-none select-none">"</div>
+              <div className="text-[#C9A96A]/10 font-serif text-7xl md:text-9xl absolute -top-2 md:-top-4 left-2 leading-none select-none">"</div>
               <div className="relative z-10">
                 <div className="flex gap-1 mb-8 text-[#C9A96A]">
                   {[1, 2, 3, 4, 5].map(i => (

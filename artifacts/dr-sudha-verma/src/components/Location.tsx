@@ -13,7 +13,7 @@ export function Location() {
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="lg:col-span-7 w-full h-[400px] lg:h-[500px] rounded-sm overflow-hidden border-8 border-white shadow-[0_20px_50px_-10px_rgba(47,79,68,0.1)] relative"
+            className="lg:col-span-7 w-full h-[260px] md:h-[360px] lg:h-[500px] rounded-sm overflow-hidden border-4 md:border-8 border-white shadow-[0_20px_50px_-10px_rgba(47,79,68,0.1)] relative"
           >
             <iframe 
               src="https://maps.google.com/maps?q=Samartha+Homoeopathic+Pharmacy+Kohinoor+Plaza+Ulhasnagar&output=embed" 
@@ -32,7 +32,7 @@ export function Location() {
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="lg:col-span-5 bg-white p-10 md:p-12 border border-[#C9A96A]/30 shadow-xl relative mt-0 lg:mt-10 lg:-ml-12 z-10"
+            className="lg:col-span-5 bg-white p-6 md:p-10 border border-[#C9A96A]/30 shadow-xl relative mt-0 lg:mt-10 lg:-ml-12 z-10"
           >
             <div className="absolute top-0 left-0 w-full h-1 bg-[#C9A96A]"></div>
             

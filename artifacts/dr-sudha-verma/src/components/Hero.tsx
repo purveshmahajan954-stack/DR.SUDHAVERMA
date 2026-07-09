@@ -29,7 +29,7 @@ export function Hero() {
             </span>
           </div>
           
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif text-[#FBF8F3] leading-[1.1] mb-6 tracking-tight drop-shadow-lg">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-serif text-[#FBF8F3] leading-[1.1] mb-6 tracking-tight drop-shadow-lg">
             Heal Naturally.
             <br />
             <span className="text-[#C9A96A]">Live Fully.</span>
@@ -48,7 +48,7 @@ export function Hero() {
             </a>
           </div>
 
-          <div className="inline-flex items-center gap-3 bg-[#FBF8F3] px-5 py-3 rounded-full border border-[#C9A96A]/30 whitespace-nowrap shadow-md">
+          <div className="inline-flex items-center gap-2 bg-[#FBF8F3] px-5 py-3 rounded-full border border-[#C9A96A]/40 shadow-md">
             <div className="flex text-[#C9A96A]">
               {[1, 2, 3, 4, 5].map(i => (
                 <svg key={i} className="w-4 h-4 fill-current" viewBox="0 0 20 20">
@@ -56,9 +56,9 @@ export function Hero() {
                 </svg>
               ))}
             </div>
-            <span className="text-[#FBF8F3] font-bold text-sm">4.9</span>
-            <span className="text-[#FBF8F3]/40">|</span>
-            <span className="text-[#FBF8F3]/85 text-sm font-medium">84 Google Reviews</span>
+            <span className="text-[#3E2C23] font-bold text-sm">4.9</span>
+            <span className="text-[#3E2C23]/30 text-sm">|</span>
+            <span className="text-[#3E2C23]/80 text-sm font-medium">84 Google Reviews</span>
             <FcGoogle className="w-4 h-4" />
           </div>
         </motion.div>

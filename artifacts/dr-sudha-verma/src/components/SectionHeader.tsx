@@ -20,7 +20,7 @@ export function SectionHeader({ kicker, title, align = "center" }: { kicker: str
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5, delay: 0.1 }}
-        className="text-3xl md:text-5xl font-serif text-[#3E2C23]"
+        className="text-2xl sm:text-3xl md:text-5xl font-serif text-[#3E2C23] leading-tight"
       >
         {title}
       </motion.h2>
