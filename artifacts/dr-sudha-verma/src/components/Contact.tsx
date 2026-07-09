@@ -17,7 +17,7 @@ export function Contact() {
   };
 
   return (
-    <section id="contact" className="py-24 bg-[#FBF8F3] relative overflow-hidden">
+    <section id="contact" className="py-12 md:py-24 bg-[#FBF8F3] relative overflow-hidden">
       <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-[#8B6F5E]/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3"></div>
       
       <div className="container mx-auto px-6 md:px-12 max-w-4xl relative z-10">
