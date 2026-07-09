@@ -48,7 +48,7 @@ export function Hero() {
             </a>
           </div>
 
-          <div className="inline-flex items-center gap-3 bg-[#FBF8F3]/15 backdrop-blur-md px-5 py-3 rounded-full border border-[#FBF8F3]/25 whitespace-nowrap">
+          <div className="inline-flex items-center gap-3 bg-[#FBF8F3] px-5 py-3 rounded-full border border-[#C9A96A]/30 whitespace-nowrap shadow-md">
             <div className="flex text-[#C9A96A]">
               {[1, 2, 3, 4, 5].map(i => (
                 <svg key={i} className="w-4 h-4 fill-current" viewBox="0 0 20 20">
