@@ -6,47 +6,49 @@ export function Hero() {
     <section id="home" className="relative min-h-[100dvh] flex items-center justify-center pt-20 overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=1920&q=80" 
-          alt="Natural wellness leaves" 
+          src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=1920&q=80" 
+          alt="Sunlight through lush green forest — natural healing" 
           className="w-full h-full object-cover object-center"
           loading="lazy"
         />
-        {/* Soft gradient overlay from cream/ivory bottom to transparent top */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#FBF8F3] via-[#FBF8F3]/80 to-transparent"></div>
-        {/* Additional warm overlay */}
-        <div className="absolute inset-0 bg-[#FBF8F3]/30"></div>
+        {/* Rich dark-to-transparent gradient so image breathes */}
+        <div className="absolute inset-0 bg-gradient-to-b from-[#1E3330]/60 via-[#2F4F44]/50 to-[#1E3330]/80"></div>
+        {/* Subtle bottom fade to page background */}
+        <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-[#FBF8F3] to-transparent"></div>
       </div>
 
       <div className="container relative z-10 mx-auto px-6 md:px-12 text-center max-w-4xl mt-16">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
+          transition={{ duration: 0.9, ease: "easeOut" }}
         >
-          <div className="mb-6 flex justify-center">
-            <span className="text-[#C9A96A] tracking-[0.15em] text-xs md:text-sm font-semibold uppercase px-4 py-1 border border-[#C9A96A]/40 rounded-full bg-[#FBF8F3]/60 backdrop-blur-sm">
+          <div className="mb-8 flex justify-center">
+            <span className="text-[#C9A96A] tracking-[0.2em] text-xs md:text-sm font-semibold uppercase px-5 py-2 border border-[#C9A96A]/60 rounded-full backdrop-blur-sm">
               Homoeopathic Health Care
             </span>
           </div>
           
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif text-[#2F4F44] leading-tight mb-6 tracking-tight">
-            Gentle Healing,<br className="hidden md:block" /> Rooted in Trust
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif text-[#FBF8F3] leading-[1.1] mb-6 tracking-tight drop-shadow-lg">
+            Heal Naturally.
+            <br />
+            <span className="text-[#C9A96A]">Live Fully.</span>
           </h1>
           
-          <p className="text-lg md:text-xl text-[#2F4F44]/90 font-sans max-w-2xl mx-auto mb-10 leading-relaxed font-medium">
-            Experience natural, personalized care that honors your body's own healing intelligence. We treat the root cause, not just the symptoms.
+          <p className="text-lg md:text-xl text-[#FBF8F3]/85 font-sans max-w-2xl mx-auto mb-10 leading-relaxed">
+            Experience personalized homoeopathic care that treats the root cause — not just the symptoms — with decades of trusted expertise.
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-5 mb-12">
-            <a href="https://wa.me/917276361426" target="_blank" rel="noreferrer" className="w-full sm:w-auto px-8 py-4 bg-[#2F4F44] text-[#C9A96A] text-sm font-medium tracking-wide uppercase hover:bg-[#1E3330] transition-colors gold-glow border border-[#2F4F44]">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-5 mb-14">
+            <a href="https://wa.me/917276361426" target="_blank" rel="noreferrer" className="w-full sm:w-auto px-8 py-4 bg-[#C9A96A] text-[#1E3330] text-sm font-bold tracking-widest uppercase hover:bg-[#e0bc7e] transition-colors shadow-lg">
               Book Appointment
             </a>
-            <a href="tel:+917276361426" className="w-full sm:w-auto px-8 py-4 border border-[#C9A96A] text-[#C9A96A] text-sm font-medium tracking-wide uppercase hover:bg-[#C9A96A] hover:text-[#FBF8F3] transition-colors gold-glow bg-[#FBF8F3]/70 backdrop-blur-sm">
+            <a href="tel:+917276361426" className="w-full sm:w-auto px-8 py-4 border-2 border-[#FBF8F3]/70 text-[#FBF8F3] text-sm font-medium tracking-widest uppercase hover:bg-[#FBF8F3]/10 transition-colors backdrop-blur-sm">
               Call Now
             </a>
           </div>
 
-          <div className="flex items-center justify-center gap-3 bg-[#FBF8F3]/70 backdrop-blur-md px-6 py-3 rounded-full inline-flex border border-[#C9A96A]/20">
+          <div className="flex items-center justify-center gap-3 bg-[#FBF8F3]/15 backdrop-blur-md px-6 py-3 rounded-full inline-flex border border-[#FBF8F3]/20">
             <div className="flex text-[#C9A96A]">
               {[1, 2, 3, 4, 5].map(i => (
                 <svg key={i} className="w-5 h-5 fill-current" viewBox="0 0 20 20">
@@ -55,9 +57,9 @@ export function Hero() {
               ))}
             </div>
             <div className="flex items-center gap-2">
-              <span className="text-[#2F4F44] font-semibold text-sm">4.9 Rating</span>
-              <span className="text-[#2F4F44]/50 text-sm">•</span>
-              <span className="text-[#2F4F44] font-medium text-sm">84 Google Reviews</span>
+              <span className="text-[#FBF8F3] font-semibold text-sm">4.9 Rating</span>
+              <span className="text-[#FBF8F3]/50 text-sm">•</span>
+              <span className="text-[#FBF8F3]/90 font-medium text-sm">84 Google Reviews</span>
               <FcGoogle className="w-4 h-4 ml-1" />
             </div>
           </div>
