@@ -47,9 +47,13 @@ export function ScrollToTop() {
         rel="noreferrer"
         aria-label="Chat on WhatsApp"
         initial={{ scale: 0, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        transition={{ type: 'spring', stiffness: 260, damping: 20, delay: 0.5 }}
-        whileHover={{ scale: 1.1 }}
+        animate={{ scale: 1, opacity: 1, y: [0, -8, 0] }}
+        transition={{
+          scale: { type: 'spring', stiffness: 260, damping: 20, delay: 0.5 },
+          opacity: { duration: 0.3, delay: 0.5 },
+          y: { duration: 2, repeat: Infinity, ease: 'easeInOut', delay: 1 },
+        }}
+        whileHover={{ scale: 1.1, y: 0 }}
         whileTap={{ scale: 0.93 }}
         className="w-14 h-14 bg-[#25D366] rounded-full flex items-center justify-center shadow-[0_4px_20px_rgba(37,211,102,0.45)] hover:shadow-[0_6px_28px_rgba(37,211,102,0.6)] transition-shadow"
       >
