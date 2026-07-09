@@ -4,7 +4,7 @@ import doctorImg from '@assets/upscalemedia-transformed (6).png';
 
 export function About() {
   return (
-    <section id="about" className="py-24 bg-[#FBF8F3] relative">
+    <section id="about" className="py-12 md:py-24 bg-[#FBF8F3] relative">
       <div className="container mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <motion.div 

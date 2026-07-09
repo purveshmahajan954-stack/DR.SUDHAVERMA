@@ -37,7 +37,7 @@ const services = [
 
 export function Services() {
   return (
-    <section id="services" className="py-24 bg-[#FBF8F3]">
+    <section id="services" className="py-12 md:py-24 bg-[#FBF8F3]">
       <div className="container mx-auto px-6 md:px-12">
         <SectionHeader kicker="What We Treat" title="Specialized Care" />
 
