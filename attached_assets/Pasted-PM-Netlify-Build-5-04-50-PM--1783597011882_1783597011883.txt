@@ -1,0 +1,81 @@
+PM: Netlify Build                                                 
+5:04:50 PM: ────────────────────────────────────────────────────────────────
+5:04:50 PM: ​
+5:04:50 PM: ❯ Version
+5:04:50 PM:   @netlify/build 36.1.2
+5:04:50 PM: ​
+5:04:50 PM: ❯ Flags
+5:04:50 PM:   accountId: 6a1ea1c1f7249a151bd4fee2
+5:04:50 PM:   baseRelDir: true
+5:04:50 PM:   buildId: 6a4f8745eed58d5aa83164f9
+5:04:50 PM:   deployId: 6a4f8745eed58d5aa83164fb
+5:04:50 PM:   packagePath: artifacts/dr-sudha-verma
+5:04:50 PM: ​
+5:04:50 PM: ❯ Current directory
+5:04:50 PM:   /opt/build/repo
+5:04:50 PM: ​
+5:04:50 PM: ❯ Config file
+5:04:50 PM:   /opt/build/repo/artifacts/dr-sudha-verma/netlify.toml
+5:04:50 PM: ​
+5:04:50 PM: ❯ Context
+5:04:50 PM:   production
+5:04:50 PM: ​
+5:04:50 PM: build.command from netlify.toml                               
+5:04:50 PM: ────────────────────────────────────────────────────────────────
+5:04:50 PM: ​
+5:04:50 PM: $ pnpm run build
+5:04:51 PM: > workspace@0.0.0 build /opt/build/repo
+5:04:51 PM: > pnpm run typecheck && pnpm -r --if-present run build
+5:04:51 PM: > workspace@0.0.0 typecheck /opt/build/repo
+5:04:51 PM: > pnpm run typecheck:libs && pnpm -r --filter "./artifacts/**" --filter "./scripts" --if-present run typecheck
+5:04:51 PM: > workspace@0.0.0 typecheck:libs /opt/build/repo
+5:04:51 PM: > tsc --build
+5:04:53 PM: Scope: 4 of 9 workspace projects
+5:04:53 PM: artifacts/dr-sudha-verma typecheck$ tsc -p tsconfig.json --noEmit
+5:04:53 PM: artifacts/mockup-sandbox typecheck$ tsc -p tsconfig.json --noEmit
+5:04:53 PM: artifacts/api-server typecheck$ tsc -p tsconfig.json --noEmit
+5:04:55 PM: artifacts/api-server typecheck: Done
+5:04:55 PM: scripts typecheck$ tsc -p tsconfig.json --noEmit
+5:04:56 PM: scripts typecheck: Done
+5:04:59 PM: artifacts/mockup-sandbox typecheck: Done
+5:04:59 PM: artifacts/dr-sudha-verma typecheck: Done
+5:04:59 PM: Scope: 8 of 9 workspace projects
+5:04:59 PM: artifacts/mockup-sandbox build$ vite build
+5:04:59 PM: artifacts/mockup-sandbox build: failed to load config from /opt/build/repo/artifacts/mockup-sandbox/vite.config.ts
+5:04:59 PM: artifacts/mockup-sandbox build: error during build:
+5:04:59 PM: artifacts/mockup-sandbox build: Error: PORT environment variable is required but was not provided.
+5:04:59 PM: artifacts/mockup-sandbox build:     at file:///opt/build/repo/artifacts/mockup-sandbox/node_modules/.vite-temp/vite.config.ts.timestamp-1783596899850-a3ee854ff5c84.mjs:145:9
+5:04:59 PM: artifacts/mockup-sandbox build:     at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+5:04:59 PM: artifacts/mockup-sandbox build:     at async node:internal/modules/esm/loader:643:26
+5:04:59 PM: artifacts/mockup-sandbox build:     at async loadConfigFromBundledFile (file:///opt/build/repo/node_modules/.pnpm/vite@7.3.6_@types+node@25.9.4_jiti@2.7.0_lightningcss@1.32.0_tsx@4.23.0_yaml@2.9.0/node_modules/vite/dist/node/chunks/config.js:35996:12)
+5:04:59 PM: artifacts/mockup-sandbox build:     at async bundleAndLoadConfigFile (file:///opt/build/repo/node_modules/.pnpm/vite@7.3.6_@types+node@25.9.4_jiti@2.7.0_lightningcss@1.32.0_tsx@4.23.0_yaml@2.9.0/node_modules/vite/dist/node/chunks/config.js:35884:17)
+5:04:59 PM: artifacts/mockup-sandbox build:     at async loadConfigFromFile (file:///opt/build/repo/node_modules/.pnpm/vite@7.3.6_@types+node@25.9.4_jiti@2.7.0_lightningcss@1.32.0_tsx@4.23.0_yaml@2.9.0/node_modules/vite/dist/node/chunks/config.js:35851:42)
+5:04:59 PM: artifacts/mockup-sandbox build:     at async resolveConfig (file:///opt/build/repo/node_modules/.pnpm/vite@7.3.6_@types+node@25.9.4_jiti@2.7.0_lightningcss@1.32.0_tsx@4.23.0_yaml@2.9.0/node_modules/vite/dist/node/chunks/config.js:35500:22)
+5:04:59 PM: artifacts/mockup-sandbox build:     at async createBuilder (file:///opt/build/repo/node_modules/.pnpm/vite@7.3.6_@types+node@25.9.4_jiti@2.7.0_lightningcss@1.32.0_tsx@4.23.0_yaml@2.9.0/node_modules/vite/dist/node/chunks/config.js:33955:19)
+5:04:59 PM: artifacts/mockup-sandbox build:     at async CAC.<anonymous> (file:///opt/build/repo/node_modules/.pnpm/vite@7.3.6_@types+node@25.9.4_jiti@2.7.0_lightningcss@1.32.0_tsx@4.23.0_yaml@2.9.0/node_modules/vite/dist/node/cli.js:629:10)
+5:04:59 PM: artifacts/mockup-sandbox build: Failed
+5:04:59 PM: /opt/build/repo/artifacts/mockup-sandbox:
+5:04:59 PM:  ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL  @workspace/mockup-sandbox@2.0.0 build: `vite build`
+5:04:59 PM: Exit status 1
+5:05:00 PM: Failed during stage 'building site': Build script returned non-zero exit code: 2 (https://ntl.fyi/exit-code-2)
+5:05:00 PM:  ELIFECYCLE  Command failed with exit code 1. (https://ntl.fyi/exit-code-1)
+5:05:00 PM: ​
+5:05:00 PM: "build.command" failed                                        
+5:05:00 PM: ────────────────────────────────────────────────────────────────
+5:05:00 PM: ​
+5:05:00 PM:   Error message
+5:05:00 PM:   Command failed with exit code 1: pnpm run build (https://ntl.fyi/exit-code-1)
+5:05:00 PM: ​
+5:05:00 PM:   Error location
+5:05:00 PM:   In build.command from netlify.toml:
+5:05:00 PM:   pnpm run build
+5:05:00 PM: ​
+5:05:00 PM:   Resolved config
+5:05:00 PM:   build:
+5:05:00 PM:     command: pnpm run build
+5:05:00 PM:     commandOrigin: config
+5:05:00 PM:     publish: /opt/build/repo/dist/public
+5:05:00 PM:     publishOrigin: config
+5:05:00 PM: Build failed due to a user error: Build script returned non-zero exit code: 2
+5:05:00 PM: Failing build: Failed to build site
+5:05:00 PM: Finished processing build request in 30.747s
