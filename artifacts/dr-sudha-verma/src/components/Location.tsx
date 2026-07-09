@@ -82,7 +82,7 @@ export function Location() {
               href="https://maps.google.com/maps?q=Samartha+Homoeopathic+Pharmacy+Kohinoor+Plaza+Ulhasnagar" 
               target="_blank" 
               rel="noreferrer"
-              className="mt-12 block w-full py-4 text-center border border-[#3E2C23] text-[#3E2C23] uppercase tracking-[0.15em] text-xs font-bold hover:bg-[#3E2C23] hover:text-white transition-colors"
+              className="mt-12 block w-full py-4 text-center border border-[#3E2C23] text-[#3E2C23] uppercase tracking-[0.15em] text-xs font-bold hover:bg-[#3E2C23] hover:text-white transition-colors rounded-full"
             >
               Get Directions
             </a>

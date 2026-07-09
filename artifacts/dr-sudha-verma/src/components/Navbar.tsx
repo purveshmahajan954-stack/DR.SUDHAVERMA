@@ -150,7 +150,7 @@ export function Navbar() {
                 initial="closed"
                 animate="open"
                 whileTap={{ scale: 0.97 }}
-                className="mt-4 px-5 py-3.5 text-center bg-[#3E2C23] text-[#C9A96A] font-semibold tracking-widest text-sm hover:bg-[#2A1E18] transition-colors duration-250"
+                className="mt-4 px-5 py-3.5 text-center bg-[#3E2C23] text-[#C9A96A] font-semibold tracking-widest text-sm hover:bg-[#2A1E18] transition-colors duration-250 rounded-full"
               >
                 Book Appointment
               </motion.a>

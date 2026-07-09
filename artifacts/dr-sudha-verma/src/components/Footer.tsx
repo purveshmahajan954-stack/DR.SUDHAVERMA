@@ -43,7 +43,7 @@ export function Footer() {
               </a>
             </div>
             
-            <a href="tel:+917276361426" className="inline-block py-3 px-6 border border-[#C9A96A]/40 text-[#FBF8F3]/90 text-sm tracking-widest hover:border-[#C9A96A] hover:text-[#C9A96A] transition-colors">
+            <a href="tel:+917276361426" className="inline-block py-3 px-6 border border-[#C9A96A]/40 text-[#FBF8F3]/90 text-sm tracking-widest hover:border-[#C9A96A] hover:text-[#C9A96A] transition-colors rounded-full">
               +91 72763 61426
             </a>
           </div>

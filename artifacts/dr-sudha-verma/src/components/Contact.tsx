@@ -88,14 +88,14 @@ export function Contact() {
               ></textarea>
             </div>
 
-            <button type="submit" className="w-full py-5 bg-[#3E2C23] text-[#C9A96A] uppercase tracking-widest text-sm font-bold hover:bg-[#2A1E18] transition-colors gold-glow mt-4">
+            <button type="submit" className="w-full py-5 bg-[#3E2C23] text-[#C9A96A] uppercase tracking-widest text-sm font-bold hover:bg-[#2A1E18] transition-colors gold-glow mt-4 rounded-full">
               Request Appointment via WhatsApp
             </button>
           </form>
 
           <div className="mt-12 text-center pt-8 border-t border-[#C9A96A]/20">
             <p className="text-sm text-[#3E2C23]/60 mb-5 font-medium">Prefer to speak directly?</p>
-            <a href="tel:+917276361426" className="inline-block py-3 px-10 border border-[#C9A96A] text-[#3E2C23] uppercase tracking-widest text-xs font-bold hover:bg-[#C9A96A] hover:text-[#FBF8F3] transition-colors">
+            <a href="tel:+917276361426" className="inline-block py-3 px-10 border border-[#C9A96A] text-[#3E2C23] uppercase tracking-widest text-xs font-bold hover:bg-[#C9A96A] hover:text-[#FBF8F3] transition-colors rounded-full">
               Call +91 72763 61426
             </a>
           </div>
