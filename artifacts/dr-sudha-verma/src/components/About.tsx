@@ -22,7 +22,7 @@ export function About() {
               />
             </div>
             <div className="absolute -bottom-4 -right-4 md:-bottom-6 md:-right-6 lg:-right-10 w-24 h-24 md:w-36 md:h-36 bg-[#3E2C23] rounded-full flex items-center justify-center text-[#C9A96A] p-4 md:p-6 text-center border-4 md:border-8 border-[#FBF8F3] shadow-lg z-10">
-              <span className="font-serif italic text-sm md:text-base leading-tight">Rooted in<br/>Nature</span>
+              <span className="font-serif italic text-xs md:text-sm leading-tight">Homoeopathy<br/>Specialist</span>
             </div>
           </motion.div>
 
