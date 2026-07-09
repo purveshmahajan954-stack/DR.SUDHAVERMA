@@ -1,0 +1,77 @@
+Create an ultra-premium, luxury-feel, single-page responsive website for a Homoeopathic doctor's clinic. 
+Build with React + Vite + Tailwind CSS so it deploys cleanly as a static site on Netlify.
+
+BUSINESS DETAILS:
+- Clinic Name: Dr Sudha Verma, Homoeopathic Health Care
+- Rating: 4.9 stars (84 Google Reviews)
+- Address: Shop No.4, Samartha Homoeopathic Pharmacy, Kohinoor Plaza, Railway Station Rd, 
+  Opp. Ambika Mitra Mandal, Krishna Nagar, Ulhasnagar
+- Phone: +91 72763 61426
+- WhatsApp link: https://wa.me/917276361426
+- Timings: Open daily, Closes 9:30 PM
+- Specialization: Homoeopathic treatment for chronic and general health issues
+
+LUXURY DESIGN LANGUAGE:
+- Color palette: warm ivory/cream base (#FBF8F3), deep emerald or sage green (#2F4F44 / #7FA88F) 
+  as primary accent, and a soft antique gold (#C9A96A) for highlights, dividers, and button borders — 
+  think "high-end wellness spa" not "clinic." No harsh white, no clinical blue.
+- Typography: elegant serif for headings ("Playfair Display" or "Cormorant Garamond", generous letter-spacing 
+  on small caps labels like "OUR SERVICES"), refined sans-serif for body ("Inter" or "Jost").
+- Thin gold-line dividers between sections, small uppercase kicker labels above headings 
+  (e.g. "TRUSTED CARE SINCE YEARS") for that boutique feel.
+- Soft drop shadows, large rounded corners (2xl), generous negative space, subtle fade/slide-in 
+  animations on scroll (use Framer Motion or CSS intersection observer).
+- High-quality full-width hero image with a soft gradient overlay (cream-to-transparent) so text stays readable.
+- Subtle gold hover-glow effect on buttons and cards; smooth 300ms transitions everywhere.
+- Custom favicon and a simple minimalist logo mark (initials "SV" in a circle, gold on emerald).
+
+SECTIONS (in order):
+1. Sticky Navbar — logo mark + clinic name, nav links (Home, About, Services, Testimonials, Location, Contact), 
+   gold-bordered "Book Appointment" button linking to WhatsApp. Navbar goes from transparent to 
+   frosted-glass cream on scroll.
+2. Hero — full-bleed image background, small gold kicker text "HOMOEOPATHIC HEALTH CARE", 
+   large serif heading "Gentle Healing, Rooted in Trust", subheading about natural personalized care, 
+   4.9★ rating badge with Google logo (84 Reviews), two CTAs: "Book Appointment" (solid gold/emerald) 
+   and "Call Now" (outline gold).
+3. About — split layout: doctor portrait on one side, elegant paragraph on the other about 
+   Dr. Sudha Verma's experience, philosophy, and patient-first approach; small stat row 
+   (Years of Experience, Patients Treated, Google Rating).
+4. Services — 6 cards in a responsive grid (Chronic Illness, Skin & Allergy, Child Care, 
+   Women's Health, Joint & Bone Pain, Digestive Care), each with a thin gold icon outline, 
+   hover lift effect, and one-line description.
+5. Why Choose Us — 4 feature cards (Experienced & Trusted, 4.9★ Google Rated, 
+   Personalized Treatment Plans, Affordable & Transparent) with icons and soft card shadow.
+6. Testimonials — carousel or 3-card grid styled like premium Google review cards, 
+   gold 5-star icons, quotation mark accent, patient name + "Google Review" tag. 
+   Write 3 warm, natural-sounding sample reviews.
+7. Location — two-column: embedded Google Map iframe (rounded corners, subtle border) on one side, 
+   and an info card (address, phone as click-to-call, opening hours table, "Get Directions" button) on the other.
+8. Contact / Appointment — elegant form (Name, Phone, Preferred Time, Message) inside a soft cream card 
+   with gold accent border, submit opens pre-filled WhatsApp message; plus a direct "Call Now" button.
+9. Footer — dark emerald background with cream text, clinic name + tagline, quick links, 
+   address & phone, social icons (WhatsApp, Google Maps, Instagram placeholder), 
+   thin gold top border, "Designed with care" small credit line.
+
+FINISHING TOUCHES / POLISH:
+- Add smooth scroll behavior and scroll-to-top button (gold circle, appears after scrolling).
+- Add a subtle page-load fade-in animation.
+- Add loading="lazy" on all images and use optimized/compressed placeholder images from unsplash.com.
+- Ensure perfect mobile responsiveness (test at 375px, 768px, 1024px, 1440px widths).
+- Add proper favicon, page title, and meta description for SEO 
+  ("Dr Sudha Verma Homoeopathic Clinic Ulhasnagar | 4.9★ Rated Homoeopathy Doctor").
+- Add Open Graph meta tags so the link looks good when shared on WhatsApp/social media.
+- Ensure all buttons/links have proper hover and focus states (accessibility).
+- No console errors, no broken links, no lorem-ipsum left in final output — all text should be final, polished copy.
+
+TECHNICAL / DEPLOYMENT REQUIREMENTS:
+- React + Vite project structure, Tailwind CSS configured properly.
+- Build output must work with `npm run build` producing a /dist folder.
+- Include a netlify.toml file at root with:
+    [build]
+      command = "npm run build"
+      publish = "dist"
+- Include a README.md with simple steps to run locally and deploy to Netlify.
+- Keep code clean, componentized (separate components for Navbar, Hero, About, Services, 
+  Testimonials, Location, Contact, Footer), and well-commented.
+
+Generate the complete, final, production-ready project.

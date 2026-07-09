@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "Dr Sudha Verma Homoeopathic Clinic"
+version = "1.0.0"
+id = "artifacts/dr-sudha-verma"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21714
+
+[services.development]
+run = "pnpm --filter @workspace/dr-sudha-verma run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/dr-sudha-verma", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/dr-sudha-verma/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21714"
+BASE_PATH = "/"

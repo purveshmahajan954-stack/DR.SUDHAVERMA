@@ -1,0 +1,35 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-clinic-bg: #FBF8F3;
+  --color-clinic-primary: #2F4F44;
+  --color-clinic-secondary: #7FA88F;
+  --color-clinic-gold: #C9A96A;
+  --color-clinic-dark: #1E3330;
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+:root {
+  --background: #FBF8F3;
+  --foreground: #2F4F44;
+  --primary: #2F4F44;
+  --primary-foreground: #FBF8F3;
+  --accent: #C9A96A;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-clinic-bg);
+  color: var(--color-clinic-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
+
+.gold-glow:hover {
+  box-shadow: 0 0 15px rgba(201, 169, 106, 0.4);
+}
