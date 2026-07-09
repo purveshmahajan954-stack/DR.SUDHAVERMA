@@ -4,18 +4,18 @@
 
 @theme {
   --color-clinic-bg: #FBF8F3;
-  --color-clinic-primary: #2F4F44;
-  --color-clinic-secondary: #7FA88F;
+  --color-clinic-primary: #3E2C23;
+  --color-clinic-secondary: #8B6F5E;
   --color-clinic-gold: #C9A96A;
-  --color-clinic-dark: #1E3330;
+  --color-clinic-dark: #2A1E18;
   --font-serif: "Playfair Display", serif;
   --font-sans: "Inter", sans-serif;
 }
 
 :root {
   --background: #FBF8F3;
-  --foreground: #2F4F44;
-  --primary: #2F4F44;
+  --foreground: #3E2C23;
+  --primary: #3E2C23;
   --primary-foreground: #FBF8F3;
   --accent: #C9A96A;
 }

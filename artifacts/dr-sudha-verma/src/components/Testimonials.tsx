@@ -39,12 +39,12 @@ export function Testimonials() {
                     <span key={i}>★</span>
                   ))}
                 </div>
-                <p className="text-[#2F4F44]/80 italic mb-10 text-base md:text-lg leading-relaxed">
+                <p className="text-[#3E2C23]/80 italic mb-10 text-base md:text-lg leading-relaxed">
                   {review.text}
                 </p>
               </div>
               <div className="relative z-10 flex items-center justify-between border-t border-[#C9A96A]/20 pt-6">
-                <span className="font-serif text-[#2F4F44] font-medium text-lg">{review.name}</span>
+                <span className="font-serif text-[#3E2C23] font-medium text-lg">{review.name}</span>
                 <span className="text-[10px] uppercase tracking-wider text-[#C9A96A] font-bold flex items-center gap-1.5">
                   <span className="w-1.5 h-1.5 rounded-full bg-[#C9A96A]"></span> Google Review
                 </span>

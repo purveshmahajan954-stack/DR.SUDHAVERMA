@@ -2,12 +2,12 @@ import { SiWhatsapp, SiInstagram, SiGooglemaps } from 'react-icons/si';
 
 export function Footer() {
   return (
-    <footer className="bg-[#1E3330] text-[#FBF8F3] pt-24 pb-12 border-t-4 border-[#C9A96A]">
+    <footer className="bg-[#2A1E18] text-[#FBF8F3] pt-24 pb-12 border-t-4 border-[#C9A96A]">
       <div className="container mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 lg:gap-8 mb-20">
           <div className="md:col-span-12 lg:col-span-5 pr-0 lg:pr-12">
             <div className="flex items-center gap-4 mb-8">
-              <div className="w-12 h-12 rounded-full bg-[#FBF8F3] flex items-center justify-center text-[#1E3330] font-serif text-2xl font-medium border border-[#C9A96A]">
+              <div className="w-12 h-12 rounded-full bg-[#FBF8F3] flex items-center justify-center text-[#2A1E18] font-serif text-2xl font-medium border border-[#C9A96A]">
                 SV
               </div>
               <span className="font-serif text-3xl text-[#C9A96A]">Dr Sudha Verma</span>
@@ -33,13 +33,13 @@ export function Footer() {
           <div className="md:col-span-8 lg:col-span-4">
             <h4 className="text-[#C9A96A] text-xs uppercase tracking-[0.15em] font-bold mb-8">Connect</h4>
             <div className="flex gap-4 mb-10">
-              <a href="https://wa.me/917276361426" target="_blank" rel="noreferrer" aria-label="Chat on WhatsApp" className="w-12 h-12 rounded-full border border-[#C9A96A]/40 flex items-center justify-center text-[#FBF8F3] hover:bg-[#C9A96A] hover:border-[#C9A96A] hover:text-[#1E3330] transition-colors">
+              <a href="https://wa.me/917276361426" target="_blank" rel="noreferrer" aria-label="Chat on WhatsApp" className="w-12 h-12 rounded-full border border-[#C9A96A]/40 flex items-center justify-center text-[#FBF8F3] hover:bg-[#C9A96A] hover:border-[#C9A96A] hover:text-[#2A1E18] transition-colors">
                 <SiWhatsapp size={20} />
               </a>
-              <a href="https://maps.google.com/maps?q=Samartha+Homoeopathic+Pharmacy+Kohinoor+Plaza+Ulhasnagar" target="_blank" rel="noreferrer" aria-label="View on Google Maps" className="w-12 h-12 rounded-full border border-[#C9A96A]/40 flex items-center justify-center text-[#FBF8F3] hover:bg-[#C9A96A] hover:border-[#C9A96A] hover:text-[#1E3330] transition-colors">
+              <a href="https://maps.google.com/maps?q=Samartha+Homoeopathic+Pharmacy+Kohinoor+Plaza+Ulhasnagar" target="_blank" rel="noreferrer" aria-label="View on Google Maps" className="w-12 h-12 rounded-full border border-[#C9A96A]/40 flex items-center justify-center text-[#FBF8F3] hover:bg-[#C9A96A] hover:border-[#C9A96A] hover:text-[#2A1E18] transition-colors">
                 <SiGooglemaps size={20} />
               </a>
-              <a href="#" aria-label="Follow on Instagram" className="w-12 h-12 rounded-full border border-[#C9A96A]/40 flex items-center justify-center text-[#FBF8F3] hover:bg-[#C9A96A] hover:border-[#C9A96A] hover:text-[#1E3330] transition-colors">
+              <a href="#" aria-label="Follow on Instagram" className="w-12 h-12 rounded-full border border-[#C9A96A]/40 flex items-center justify-center text-[#FBF8F3] hover:bg-[#C9A96A] hover:border-[#C9A96A] hover:text-[#2A1E18] transition-colors">
                 <SiInstagram size={20} />
               </a>
             </div>

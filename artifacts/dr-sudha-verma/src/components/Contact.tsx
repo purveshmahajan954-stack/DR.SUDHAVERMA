@@ -18,7 +18,7 @@ export function Contact() {
 
   return (
     <section id="contact" className="py-24 bg-[#FBF8F3] relative overflow-hidden">
-      <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-[#7FA88F]/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3"></div>
+      <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-[#8B6F5E]/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3"></div>
       
       <div className="container mx-auto px-6 md:px-12 max-w-4xl relative z-10">
         <SectionHeader kicker="Book A Consultation" title="Begin Your Healing Journey" />
@@ -32,24 +32,24 @@ export function Contact() {
           <form onSubmit={handleSubmit} className="space-y-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="space-y-3">
-                <label htmlFor="contact-name" className="text-xs uppercase tracking-widest text-[#2F4F44] font-semibold">Full Name</label>
+                <label htmlFor="contact-name" className="text-xs uppercase tracking-widest text-[#3E2C23] font-semibold">Full Name</label>
                 <input 
                   id="contact-name"
                   type="text" 
                   required
-                  className="w-full bg-[#FBF8F3] border border-[#C9A96A]/30 p-4 outline-none focus:border-[#C9A96A] text-[#2F4F44] transition-colors"
+                  className="w-full bg-[#FBF8F3] border border-[#C9A96A]/30 p-4 outline-none focus:border-[#C9A96A] text-[#3E2C23] transition-colors"
                   value={formData.name}
                   onChange={e => setFormData({...formData, name: e.target.value})}
                   placeholder="Your Name"
                 />
               </div>
               <div className="space-y-3">
-                <label htmlFor="contact-phone" className="text-xs uppercase tracking-widest text-[#2F4F44] font-semibold">Phone Number</label>
+                <label htmlFor="contact-phone" className="text-xs uppercase tracking-widest text-[#3E2C23] font-semibold">Phone Number</label>
                 <input 
                   id="contact-phone"
                   type="tel" 
                   required
-                  className="w-full bg-[#FBF8F3] border border-[#C9A96A]/30 p-4 outline-none focus:border-[#C9A96A] text-[#2F4F44] transition-colors"
+                  className="w-full bg-[#FBF8F3] border border-[#C9A96A]/30 p-4 outline-none focus:border-[#C9A96A] text-[#3E2C23] transition-colors"
                   value={formData.phone}
                   onChange={e => setFormData({...formData, phone: e.target.value})}
                   placeholder="+91"
@@ -58,11 +58,11 @@ export function Contact() {
             </div>
 
             <div className="space-y-3">
-              <label htmlFor="contact-time" className="text-xs uppercase tracking-widest text-[#2F4F44] font-semibold">Preferred Time</label>
+              <label htmlFor="contact-time" className="text-xs uppercase tracking-widest text-[#3E2C23] font-semibold">Preferred Time</label>
               <div className="relative">
                 <select 
                   id="contact-time"
-                  className="w-full bg-[#FBF8F3] border border-[#C9A96A]/30 p-4 outline-none focus:border-[#C9A96A] text-[#2F4F44] transition-colors appearance-none"
+                  className="w-full bg-[#FBF8F3] border border-[#C9A96A]/30 p-4 outline-none focus:border-[#C9A96A] text-[#3E2C23] transition-colors appearance-none"
                   value={formData.time}
                   onChange={e => setFormData({...formData, time: e.target.value})}
                 >
@@ -77,25 +77,25 @@ export function Contact() {
             </div>
 
             <div className="space-y-3">
-              <label htmlFor="contact-message" className="text-xs uppercase tracking-widest text-[#2F4F44] font-semibold">Message (Optional)</label>
+              <label htmlFor="contact-message" className="text-xs uppercase tracking-widest text-[#3E2C23] font-semibold">Message (Optional)</label>
               <textarea 
                 id="contact-message"
                 rows={4}
-                className="w-full bg-[#FBF8F3] border border-[#C9A96A]/30 p-4 outline-none focus:border-[#C9A96A] text-[#2F4F44] transition-colors resize-none"
+                className="w-full bg-[#FBF8F3] border border-[#C9A96A]/30 p-4 outline-none focus:border-[#C9A96A] text-[#3E2C23] transition-colors resize-none"
                 value={formData.message}
                 onChange={e => setFormData({...formData, message: e.target.value})}
                 placeholder="Briefly describe your symptoms or reason for visit..."
               ></textarea>
             </div>
 
-            <button type="submit" className="w-full py-5 bg-[#2F4F44] text-[#C9A96A] uppercase tracking-widest text-sm font-bold hover:bg-[#1E3330] transition-colors gold-glow mt-4">
+            <button type="submit" className="w-full py-5 bg-[#3E2C23] text-[#C9A96A] uppercase tracking-widest text-sm font-bold hover:bg-[#2A1E18] transition-colors gold-glow mt-4">
               Request Appointment via WhatsApp
             </button>
           </form>
 
           <div className="mt-12 text-center pt-8 border-t border-[#C9A96A]/20">
-            <p className="text-sm text-[#2F4F44]/60 mb-5 font-medium">Prefer to speak directly?</p>
-            <a href="tel:+917276361426" className="inline-block py-3 px-10 border border-[#C9A96A] text-[#2F4F44] uppercase tracking-widest text-xs font-bold hover:bg-[#C9A96A] hover:text-[#FBF8F3] transition-colors">
+            <p className="text-sm text-[#3E2C23]/60 mb-5 font-medium">Prefer to speak directly?</p>
+            <a href="tel:+917276361426" className="inline-block py-3 px-10 border border-[#C9A96A] text-[#3E2C23] uppercase tracking-widest text-xs font-bold hover:bg-[#C9A96A] hover:text-[#FBF8F3] transition-colors">
               Call +91 72763 61426
             </a>
           </div>

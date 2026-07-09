@@ -4,7 +4,7 @@ import { MapPin, Phone, Clock } from 'lucide-react';
 
 export function Location() {
   return (
-    <section id="location" className="py-24 bg-gradient-to-b from-[#FBF8F3] to-[#7FA88F]/10">
+    <section id="location" className="py-24 bg-gradient-to-b from-[#FBF8F3] to-[#8B6F5E]/10">
       <div className="container mx-auto px-6 md:px-12">
         <SectionHeader kicker="Find Us" title="Visit the Clinic" />
         
@@ -36,16 +36,16 @@ export function Location() {
           >
             <div className="absolute top-0 left-0 w-full h-1 bg-[#C9A96A]"></div>
             
-            <h3 className="text-3xl font-serif text-[#2F4F44] mb-10">Clinic Information</h3>
+            <h3 className="text-3xl font-serif text-[#3E2C23] mb-10">Clinic Information</h3>
             
             <div className="space-y-8">
               <div className="flex items-start gap-5">
-                <div className="mt-1 bg-[#FBF8F3] border border-[#C9A96A]/30 p-3 rounded-full text-[#2F4F44]">
+                <div className="mt-1 bg-[#FBF8F3] border border-[#C9A96A]/30 p-3 rounded-full text-[#3E2C23]">
                   <MapPin size={20} strokeWidth={1.5} />
                 </div>
                 <div>
                   <h4 className="text-xs font-bold tracking-[0.15em] text-[#C9A96A] uppercase mb-2">Address</h4>
-                  <p className="text-[#2F4F44]/90 text-sm md:text-base leading-relaxed">
+                  <p className="text-[#3E2C23]/90 text-sm md:text-base leading-relaxed">
                     Shop No.4, Samartha Homoeopathic Pharmacy,<br/>
                     Kohinoor Plaza, Railway Station Rd,<br/>
                     Opp. Ambika Mitra Mandal,<br/>
@@ -55,25 +55,25 @@ export function Location() {
               </div>
 
               <div className="flex items-start gap-5">
-                <div className="mt-1 bg-[#FBF8F3] border border-[#C9A96A]/30 p-3 rounded-full text-[#2F4F44]">
+                <div className="mt-1 bg-[#FBF8F3] border border-[#C9A96A]/30 p-3 rounded-full text-[#3E2C23]">
                   <Phone size={20} strokeWidth={1.5} />
                 </div>
                 <div>
                   <h4 className="text-xs font-bold tracking-[0.15em] text-[#C9A96A] uppercase mb-2">Contact</h4>
-                  <a href="tel:+917276361426" className="text-[#2F4F44]/90 text-sm md:text-base hover:text-[#C9A96A] block mb-1 font-medium">
+                  <a href="tel:+917276361426" className="text-[#3E2C23]/90 text-sm md:text-base hover:text-[#C9A96A] block mb-1 font-medium">
                     +91 72763 61426
                   </a>
                 </div>
               </div>
 
               <div className="flex items-start gap-5">
-                <div className="mt-1 bg-[#FBF8F3] border border-[#C9A96A]/30 p-3 rounded-full text-[#2F4F44]">
+                <div className="mt-1 bg-[#FBF8F3] border border-[#C9A96A]/30 p-3 rounded-full text-[#3E2C23]">
                   <Clock size={20} strokeWidth={1.5} />
                 </div>
                 <div>
                   <h4 className="text-xs font-bold tracking-[0.15em] text-[#C9A96A] uppercase mb-2">Hours</h4>
-                  <p className="text-[#2F4F44]/90 text-sm md:text-base mb-1">Open Daily</p>
-                  <p className="text-[#2F4F44]/90 text-sm md:text-base">Closes at 9:30 PM</p>
+                  <p className="text-[#3E2C23]/90 text-sm md:text-base mb-1">Open Daily</p>
+                  <p className="text-[#3E2C23]/90 text-sm md:text-base">Closes at 9:30 PM</p>
                 </div>
               </div>
             </div>
@@ -82,7 +82,7 @@ export function Location() {
               href="https://maps.google.com/maps?q=Samartha+Homoeopathic+Pharmacy+Kohinoor+Plaza+Ulhasnagar" 
               target="_blank" 
               rel="noreferrer"
-              className="mt-12 block w-full py-4 text-center border border-[#2F4F44] text-[#2F4F44] uppercase tracking-[0.15em] text-xs font-bold hover:bg-[#2F4F44] hover:text-white transition-colors"
+              className="mt-12 block w-full py-4 text-center border border-[#3E2C23] text-[#3E2C23] uppercase tracking-[0.15em] text-xs font-bold hover:bg-[#3E2C23] hover:text-white transition-colors"
             >
               Get Directions
             </a>

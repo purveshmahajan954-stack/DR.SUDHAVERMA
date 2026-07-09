@@ -52,12 +52,12 @@ export function Services() {
               className="bg-white border border-[#C9A96A]/20 p-8 hover:-translate-y-2 transition-transform duration-300 relative group overflow-hidden"
               style={{ boxShadow: "0 10px 30px -10px rgba(47, 79, 68, 0.05)" }}
             >
-              <div className="absolute top-0 left-0 w-full h-1 bg-[#2F4F44] transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
-              <div className="mb-6 p-4 bg-[#7FA88F]/10 inline-block rounded-full group-hover:bg-[#7FA88F]/20 transition-colors">
+              <div className="absolute top-0 left-0 w-full h-1 bg-[#3E2C23] transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
+              <div className="mb-6 p-4 bg-[#8B6F5E]/10 inline-block rounded-full group-hover:bg-[#8B6F5E]/20 transition-colors">
                 {service.icon}
               </div>
-              <h3 className="text-xl font-serif text-[#2F4F44] mb-3 font-medium">{service.title}</h3>
-              <p className="text-[#2F4F44]/70 leading-relaxed text-sm md:text-base">
+              <h3 className="text-xl font-serif text-[#3E2C23] mb-3 font-medium">{service.title}</h3>
+              <p className="text-[#3E2C23]/70 leading-relaxed text-sm md:text-base">
                 {service.description}
               </p>
             </motion.div>

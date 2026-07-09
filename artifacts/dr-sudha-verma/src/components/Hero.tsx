@@ -12,7 +12,7 @@ export function Hero() {
           loading="lazy"
         />
         {/* Rich dark-to-transparent gradient so image breathes */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[#1E3330]/60 via-[#2F4F44]/50 to-[#1E3330]/80"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-[#2A1E18]/60 via-[#3E2C23]/50 to-[#2A1E18]/80"></div>
         {/* Subtle bottom fade to page background */}
         <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-[#FBF8F3] to-transparent"></div>
       </div>
@@ -40,7 +40,7 @@ export function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-5 mb-14">
-            <a href="https://wa.me/917276361426" target="_blank" rel="noreferrer" className="w-full sm:w-auto px-8 py-4 bg-[#C9A96A] text-[#1E3330] text-sm font-bold tracking-widest uppercase hover:bg-[#e0bc7e] transition-colors shadow-lg">
+            <a href="https://wa.me/917276361426" target="_blank" rel="noreferrer" className="w-full sm:w-auto px-8 py-4 bg-[#C9A96A] text-[#2A1E18] text-sm font-bold tracking-widest uppercase hover:bg-[#e0bc7e] transition-colors shadow-lg">
               Book Appointment
             </a>
             <a href="tel:+917276361426" className="w-full sm:w-auto px-8 py-4 border-2 border-[#FBF8F3]/70 text-[#FBF8F3] text-sm font-medium tracking-widest uppercase hover:bg-[#FBF8F3]/10 transition-colors backdrop-blur-sm">
