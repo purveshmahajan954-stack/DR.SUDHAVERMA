@@ -88,8 +88,8 @@ export function Contact() {
               ></textarea>
             </div>
 
-            <button type="submit" className="w-full py-5 bg-[#3E2C23] text-[#C9A96A] uppercase tracking-widest text-sm font-bold hover:bg-[#2A1E18] transition-colors gold-glow mt-4 rounded-full">
-              Request Appointment via WhatsApp
+            <button type="submit" className="w-full py-5 bg-[#3E2C23] text-[#C9A96A] uppercase tracking-wider text-xs font-bold hover:bg-[#2A1E18] transition-colors gold-glow mt-4 rounded-full whitespace-nowrap">
+              Book Appointment via WhatsApp
             </button>
           </form>
 
