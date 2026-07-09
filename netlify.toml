@@ -1,0 +1,12 @@
+[build]
+  command   = "pnpm --filter @workspace/dr-sudha-verma run build"
+  publish   = "artifacts/dr-sudha-verma/dist/public"
+
+[build.environment]
+  NODE_VERSION = "20"
+  PNPM_VERSION = "10"
+
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
