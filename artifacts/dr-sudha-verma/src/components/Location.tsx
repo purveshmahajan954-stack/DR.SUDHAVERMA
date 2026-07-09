@@ -4,7 +4,7 @@ import { MapPin, Phone, Clock } from 'lucide-react';
 
 export function Location() {
   return (
-    <section id="location" className="py-24 bg-gradient-to-b from-[#FBF8F3] to-[#8B6F5E]/10">
+    <section id="location" className="py-12 md:py-24 bg-gradient-to-b from-[#FBF8F3] to-[#8B6F5E]/10">
       <div className="container mx-auto px-6 md:px-12">
         <SectionHeader kicker="Find Us" title="Visit the Clinic" />
         
