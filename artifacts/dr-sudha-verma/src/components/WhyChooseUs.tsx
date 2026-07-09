@@ -42,7 +42,7 @@ export function WhyChooseUs() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: idx * 0.1 }}
-              className="bg-[#3E2C23] p-10 text-center flex flex-col items-center justify-center border-b-4 border-[#C9A96A] hover:bg-[#254238] transition-colors"
+              className="bg-[#3E2C23] p-10 text-center flex flex-col items-center justify-center border-b-4 border-[#C9A96A] hover:bg-[#2A1E18] transition-colors"
             >
               <div className="w-16 h-16 rounded-full bg-[#2A1E18] flex items-center justify-center mb-6 shadow-inner border border-[#C9A96A]/20">
                 {reason.icon}
