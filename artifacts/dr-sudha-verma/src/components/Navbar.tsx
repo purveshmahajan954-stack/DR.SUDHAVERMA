@@ -30,25 +30,25 @@ export function Navbar() {
           <div className="w-10 h-10 rounded-full bg-[#3E2C23] flex items-center justify-center text-[#C9A96A] font-serif text-xl border border-[#C9A96A]/30 group-hover:border-[#C9A96A] transition-colors">
             SV
           </div>
-          <span className="font-serif text-xl md:text-2xl text-[#3E2C23] font-medium">Dr Sudha Verma</span>
+          <span className={`font-serif text-xl md:text-2xl font-medium transition-colors duration-300 ${scrolled ? 'text-[#3E2C23]' : 'text-[#FBF8F3]'}`}>Dr Sudha Verma</span>
         </a>
 
         {/* Desktop */}
         <div className="hidden lg:flex items-center gap-8">
           <div className="flex gap-6">
             {links.map((link) => (
-              <a key={link.name} href={link.href} className="text-[#3E2C23] text-sm font-medium hover:text-[#C9A96A] transition-colors">
+              <a key={link.name} href={link.href} className={`text-sm font-medium hover:text-[#C9A96A] transition-colors duration-300 ${scrolled ? 'text-[#3E2C23]' : 'text-[#FBF8F3]'}`}>
                 {link.name}
               </a>
             ))}
           </div>
-          <a href="https://wa.me/917276361426" target="_blank" rel="noreferrer" className="px-5 py-2.5 rounded-none border border-[#C9A96A] text-[#3E2C23] text-sm font-medium hover:bg-[#C9A96A] hover:text-[#FBF8F3] transition-all duration-300 gold-glow">
+          <a href="https://wa.me/917276361426" target="_blank" rel="noreferrer" className={`px-5 py-2.5 rounded-none border border-[#C9A96A] text-sm font-medium hover:bg-[#C9A96A] hover:text-[#FBF8F3] transition-all duration-300 gold-glow ${scrolled ? 'text-[#3E2C23]' : 'text-[#FBF8F3]'}`}>
             Book Appointment
           </a>
         </div>
 
         {/* Mobile Toggle */}
-        <button className="lg:hidden text-[#3E2C23]" onClick={() => setMobileMenuOpen(!mobileMenuOpen)} aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'} aria-expanded={mobileMenuOpen}>
+        <button className={`lg:hidden transition-colors duration-300 ${scrolled ? 'text-[#3E2C23]' : 'text-[#FBF8F3]'}`} onClick={() => setMobileMenuOpen(!mobileMenuOpen)} aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'} aria-expanded={mobileMenuOpen}>
           {mobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
       </div>
