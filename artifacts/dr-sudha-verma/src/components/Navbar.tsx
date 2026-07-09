@@ -73,7 +73,7 @@ export function Navbar() {
             whileHover={{ scale: 1.04 }}
             whileTap={{ scale: 0.97 }}
             transition={{ type: 'spring', stiffness: 350, damping: 22 }}
-            className={`px-5 py-2.5 border border-[#C9A96A] text-sm font-medium hover:bg-[#C9A96A] hover:text-[#FBF8F3] transition-colors duration-300 gold-glow ${scrolled ? 'text-[#3E2C23]' : 'text-[#FBF8F3]'}`}
+            className={`px-5 py-2.5 border border-[#C9A96A] text-sm font-medium hover:bg-[#C9A96A] hover:text-[#FBF8F3] transition-colors duration-300 gold-glow rounded-full ${scrolled ? 'text-[#3E2C23]' : 'text-[#FBF8F3]'}`}
           >
             Book Appointment
           </motion.a>
